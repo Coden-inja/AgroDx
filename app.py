@@ -43,7 +43,7 @@ def load_user(user_id):
     return User.query.get(int(user_id))
 
 # Global class names list for disease prediction
-class_name = [
+class_names = [
         'Apple___Apple_scab', 'Apple___Black_rot', 'Apple___Cedar_apple_rust', 'Apple___healthy',
         'Blueberry___healthy', 'Cherry_(including_sour)___Powdery_mildew', 'Cherry_(including_sour)___healthy',
         'Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot', 'Corn_(maize)___Common_rust_',
